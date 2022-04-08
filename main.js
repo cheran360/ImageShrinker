@@ -11,6 +11,7 @@ function createMainWindow() {
     title: "ImageShinker",
     width: 500,
     height: 600,
+    icon: "./assets/icons/Icon_256x256.png",
   });
 
   // mainWindow.loadURL(`file://${__dirname}/app/index.html`);
