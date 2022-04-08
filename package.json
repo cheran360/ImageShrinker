@@ -1,0 +1,14 @@
+{
+  "name": "imageshrinker",
+  "version": "1.0.0",
+  "description": "an desktop application that shrinks images size",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Kona Cheran Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^18.0.3"
+  }
+}
