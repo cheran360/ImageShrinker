@@ -4,11 +4,15 @@
   "description": "an desktop application that shrinks images size",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
   },
   "author": "Kona Cheran Kumar",
   "license": "MIT",
   "dependencies": {
     "electron": "^18.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
