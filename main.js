@@ -16,12 +16,16 @@ function createMainWindow() {
       contextIsolation: false,
     },
     title: "ImageShinker",
-    width: 500,
+    width: isDev ? 800 : 500,
     height: 600,
     icon: "./assets/icons/Icon_256x256.png",
     resizable: isDev,
     backgroundColor: "white",
   });
+
+  if (isDev) {
+    mainWindow.webContents.openDevTools();
+  }
 
   // mainWindow.loadURL(`file://${__dirname}/app/index.html`);
   // or
