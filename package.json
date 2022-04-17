@@ -10,7 +10,11 @@
   "author": "Kona Cheran Kumar",
   "license": "MIT",
   "dependencies": {
-    "electron": "^18.0.3"
+    "electron": "^18.0.3",
+    "imagemin": "^7.0.1",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "slash": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
